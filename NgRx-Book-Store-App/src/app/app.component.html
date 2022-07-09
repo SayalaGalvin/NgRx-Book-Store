@@ -1,0 +1,4 @@
+<h2>Books</h2>
+<div *ngFor="let book of books$ | async">
+  <li>{{ book.volumeInfo.title }} - {{ book.volumeInfo.authors }}</li>
+</div>
