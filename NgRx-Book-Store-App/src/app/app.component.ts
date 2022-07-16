@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { select, Store } from '@ngrx/store';
 import { GoogleBooksService } from './services/book-service';
-import * as BookActions from '../app/store/actions/book.action'
-import { SelectAllBooks } from './store/selectors/book.selector';
+import * as BookActions from './store/actions/books.actions'
+import { SelectAllBooks } from './store/selectors/books.selectors';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

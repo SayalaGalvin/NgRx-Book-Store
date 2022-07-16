@@ -6,8 +6,8 @@ import { StoreModule } from '@ngrx/store';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BooksEffects } from './store/effects/book.effect';
-import { bookReducer } from './store/reducers/book.reducer';
+import { BooksEffects } from './store/effects/books.effects';
+import { bookReducer } from './store/reducers/books.reducer';
 
 @NgModule({
   declarations: [

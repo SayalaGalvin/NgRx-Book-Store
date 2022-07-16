@@ -1,5 +1,5 @@
 import { createFeatureSelector, createSelector } from "@ngrx/store";
-import * as fromBooks from '../reducers/book.reducer'
+import * as fromBooks from '../reducers/books.reducer'
 
 export const selectBooksState =
   createFeatureSelector<fromBooks.BookState>('books');

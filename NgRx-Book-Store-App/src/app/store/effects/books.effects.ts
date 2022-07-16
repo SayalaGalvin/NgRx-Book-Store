@@ -3,7 +3,7 @@ import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { concatMap, map } from "rxjs";
 import { Book } from "src/app/models/book.model";
 import { GoogleBooksService } from "src/app/services/book-service";
-import * as BookActions from "../actions/book.action";
+import * as BookActions from "../actions/books.actions";
 
 @Injectable()
 export class BooksEffects {
